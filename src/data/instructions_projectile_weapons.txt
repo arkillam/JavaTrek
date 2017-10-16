@@ -1,0 +1,13 @@
+Projectile weapons are very useful in the game; they can cause a great deal of damage to an enemy ship without costing their launcher any energy.  To balance this, their supply is limited, as are the number of launching tubes available.  Furthermore, launching one does not guarantee a hit.  Please note that the more powerful types of projectiles are unavailable to low-level crews.
+
+Firing tubes limit the number of projectiles that can be launched at targets during each round of combat.  Damage to a ship's launcher system reduces the number of tubes available.
+
+Carrying capacity determines how many projectiles a ship can carry; the ship's magazines can be refilled by various means, the most common one being docking with a star base or supply depot.
+
+Each type of projectile causes a different range of damage, and has a different chance to hit its target.  To look up the specific information for the various types of weapons, check the launcher system database.  (As a general rule, more powerful weapons do more damage, but have lower probability of hitting a target.)
+
+The probability that a projectile will hit its target is calculated using the following formula:
+
+probability of hit = base probability - (distance x distance modifier) + (crew level x 5) - (target's crew level x target's dodge ability)
+
+(Basically, the higher a crew's level and the closer the target, the better the chances of landing a hit.)

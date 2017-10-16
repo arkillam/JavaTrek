@@ -1,0 +1,28 @@
+framework for a simple quest system in JavaTrek game engine
+(nowd that blowing stuff up is possible, let's try to work with it instead)
+
+a quest will consist of multiple stages, each having a requirement that must be
+met in order to procede to the next stage
+
+- travel to a destination (qx, qy, rx, ry)
+- destroy specific ships (each ship should have a unique id number)
+- destroy a number of unspecified ships from a specified team
+- destroy a number of unspecified ships from any team
+- visit a planet/base (each planet/base should have a unique id number)
+- locate/meet a ship (each ship should have a unique id number)
+- pick up item(s) (ships need to have the ability to carry cargo)
+- drop off item(s) (ships need to have the ability to carry cargo)
+- rewards (various rewards:  XP, upgrades, new ship, other)
+
+classes:
+
+- quest (each instance represents an outstanding quest)
+	- an array of stages
+	- a function for adding stages
+
+- stage (each instance represents a requirement from the list above)
+	- a requirement from the list above and data about it
+	- a complete/outstanding setting
+	
+- questfactory
+	- functions for generating quests and adding them to the game's quest object

@@ -1,0 +1,5 @@
+System Name,Energy Per Shot,Shots,Combinations,Hit Modifier,Filler
+Dual Lasers,50,2,"1,2",50,x
+Hyper Laser,100,16,16,,x
+Quad Lasers,50,4,"1,2,4",48,x
+Turbo Laser,100,8,"1,4,8",32,x

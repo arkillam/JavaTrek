@@ -1,0 +1,11 @@
+Energy weapons are not initially as damaging as projectile weapons, use energy taken from the ship's main supply, and have their damage reduced as the distance to the target increases.  They do have advantages, however:  they never miss a target, more advanced models can do large amounts of damage, and the ION versions can thoroughly damage or even disable ships' systems. 
+
+Beyond the limitations given above, energy weapons have one notable issue:  they cannot fire limitless amounts of energy per shot.  They each have a limit (listed in the weapons database, accessible from the help menu); you can exceed the limit but will damage your ship's weapons in the process.
+ 
+Here is the formula that calculates energy weapons damage:
+
+Damage Divider = distance to target / 4
+
+Damage = energy used x weapon's damage multiplier x weapon's repair status / damage divider
+
+(Energy weapons' damage multiplier can be looked up in the aforementioned weapons database.)

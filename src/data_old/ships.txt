@@ -1,0 +1,69 @@
+As a new member, I have a few names for ships to send in, along with 
+good ships to match the names... I know that a lot of, if not all, 
+the ships in EVN have been named, so take these as you will.  If 
+you're a plugin maker take them as you see fit.
+
+MIRAGE - Cloaked ship or cloaking feild ship a la Arbiter.
+
+COYOTE - Fast and manuverable fighter, perhaps a bit weak on the weapons side.
+
+TIAMAT - An Oh My God Thats a ****ing Huge Battlecruiser perhaps?
+
+ABHORSEN - A fast warship, one that looks sleek and organic.
+
+CARAVEL - A trader with solar sails - warship variant could be called 
+the GALLEIOT or GALLEON.
+
+THOR - Any warship with a lightning beam!
+
+BAB, EFFENDI, BAHA'U'LLAH - All named after influential members of 
+the Baha'i faith, these are diplomacy vessels armed with ionizing 
+weapons that only disable a ship.  DO NOT use as a warship name, the 
+Baha'i are pacifist and THAT is why I thought they would be good 
+diplomacy vessels.
+
+Dreadnoughts  4
+ 3
+ -
+ 
+Semi-dreadnoughts  6
+ -
+ 1
+ 
+Battlecruisers  -
+ -
+ -
+ 
+Pre-dreadnought battleships  15
+ -
+ 3
+ 
+Coast defence ships  2
+ -
+ -
+ 
+Armoured cruisers  22
+ -
+ 4
+ 
+Protected cruisers  9
+ -
+ 1
+ 
+Light/scout cruisers  -
+ -
+ -
+ 
+ex-Torpedo cruisers  5
+ - 
+ 2
+ 
+Seaplane carriers  1
+ 4
+ -
+ 
+Destroyers  83
+ 30*
+ 12* 
+ 
+Submarines  

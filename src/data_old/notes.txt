@@ -1,0 +1,79 @@
+Bases
+
+1.  Star Bases can supply energy, torpedoes, better repair speeds (x5), and shield the ship while it is docked.
+2.  Science Stations can supply energy and better repair speeds (x2).
+3.  Supply Depots can supply torpedoes and better repair speeds (x3).
+
+Cheats
+
+1.  "jonathan" enables cheats, "andrew" disables them
+2.  "full energy" recharges main energy
+3.  "list ships" lists all npc ships and their status
+4.  when cheats are turned on, clicking on a location within a region that contains a raider ship will display a window with that ship's status
+5.  "damage x" will do x amount of damage to the player's ship
+6.  "set proj x" will set remaining projectiles to x
+7.  "upgrade shields" upgrades shields by one level
+8.  "upgrade lasers" upgrades lasers by one level
+9.  "upgrade lr"upgrades the LR scanner by one level
+10.  "upgrade sr"upgrades the SR scanner by one level
+11. "clean" kills all enemies
+
+Combat
+
+1.  Systems damaged by damage to a ship take damage at a rate of 2% per point, if the shields are down, or 1% per (damage / 25) if the shields are on.
+
+2.  The damage done by a laser system is equal to the ((energy used * system's damage modifier * system's repair status) / (distance / 4)).
+
+3.  ION weapons do more damage to systems than other weapons do
+
+4.  projectile (explosion) damage is distributed a point at a time between ship systems; energy weapon damage is distributed in lots of 25
+
+End-of-Game Scoring
+
+1.  Final score is raw score (points scored during the game) divided by the number of days that elapsed, and multiplied by a difficulty level modifier (0.5 for very easy, 0.75 for easy, 1.0 for normal, 1.5 for hard and 2.0 for very hard)
+2.  One point is deducted from final score for each crew member killed.
+
+Energy Bars
+
+1.  The main and shield energy bars (in the main display), if clicked, call the respective max power function.
+
+Misc
+
+1.  Each day, more enemy ships enter the quadrant (the amount depends on the level of difficulty).
+
+Movement
+
+1.  The cost of any move, local or inter-regional, is doubled if shields are up.
+
+2.  The cost of a local move (using impulse engines) is equal to  (10 x distance).  If the impulse engines are slightly damaged (repair value between 70 and 90), the cost of movement doubles.  If the engines are more severely damaged, the ship can't move at all!  All local moves take one hour.
+
+3.  The cost of a inter-region move (using hyperdrive) is equal to  (10 x 7.8125 x speed ^ 2).  This was calculated so that it costs 5000 units of energy to move a distance of 10 units at warp 8 (basically, a fully-powered federation warship can cross the entire quadrant at warp 8, but at the cost of all of it's energy).  The time required for a move is equal to (19.2 x distance / speed).  This was calculated so that it takes 24 hours at warp 8 to cross the entire quadrant.
+
+4.  To dock with a space station, the ship must be within one unit of the base;  docking takes one hour to complete.
+
+Power Generation
+
+1.  When power is generated, it is evenly divided between main and shield energy.  If either overflows, the run-off is sent to the other, so overflow energy isn't wasted unless neither type can hold any more.
+
+2.  When shields are on, they cost 25 units/hour to maintain, taken from shield energy.  This means that resting with shields up will appear to not recharge shields, unless main power has an overflow.
+
+Repairs
+
+1.  Repairs are made on an hourly basis.  Each ship has a certain number of repair points to use each hour.  This points are added to damaged systems, resulting in better system status levels.  The repairs are completed based on a hard-coded priority list.
+
+2.  A point (1%) of repair is good for repairing 10 points of hull damage.
+
+Scanning
+
+1.  The long-range scanner scans for a 3x3 cube with the ship at it's centre, but only when the ship's long-range scanner is at least 80% operational.
+
+Shields
+
+1.  Maintaining shields costs a small amount (25 units) of shield energy.
+2.  If shield power is reduced to 0 for any reason, the shields will automatically turn off.
+
+Short-Cuts
+
+1.  Clicking on a space in the region map moves (or attempts to move) your ship to that location within the current region.
+
+2.  Clicking on a space in the quadrant map moves (or attempts to move) your ship to that location within the current quadrant.
